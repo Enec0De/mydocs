@@ -1,0 +1,16 @@
+@font-face {
+  font-family: "SarasaTermSC";
+  src:
+    url("../assets/fonts/SarasaTermSC-Regular.ttf");
+}
+
+@font-face {
+  font-family: "SourceHanSans";
+  src:
+    url("../assets/fonts/SourceHanSansSC-VF.ttf");
+}
+
+:root {
+  --md-text-font: "SourceHanSans";
+  --md-code-font: "SarasaTermSC";
+}
