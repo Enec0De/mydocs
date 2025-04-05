@@ -10,7 +10,13 @@
     url("../assets/fonts/SourceHanSansSC-VF.ttf");
 }
 
+@font-face {
+  font-family: "LXGWWenKai";
+  src:
+    url("../assets/fonts/LXGWWenKaiGBScreen.ttf");
+}
+
 :root {
-  --md-text-font: "SourceHanSans";
+  --md-text-font: "LXGWWenKai";
   --md-code-font: "SarasaTermSC";
 }
