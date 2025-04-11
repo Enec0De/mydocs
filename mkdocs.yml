@@ -131,3 +131,5 @@ nav:
   - Home:
     -  index.md
     - Addition: addition.md
+  - Linux Command:
+    - pacman: linux_command/pacman.md
