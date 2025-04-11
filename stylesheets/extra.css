@@ -1,0 +1,22 @@
+@font-face {
+  font-family: "SarasaTermSC";
+  src:
+    url("../assets/fonts/SarasaTermSC-Regular.ttf");
+}
+
+@font-face {
+  font-family: "SourceHanSans";
+  src:
+    url("../assets/fonts/SourceHanSansSC-VF.ttf");
+}
+
+@font-face {
+  font-family: "LXGWWenKai";
+  src:
+    url("../assets/fonts/LXGWWenKaiGBScreen.ttf");
+}
+
+:root {
+  --md-text-font: "LXGWWenKai";
+  --md-code-font: "SarasaTermSC";
+}
