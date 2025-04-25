@@ -1,10 +1,14 @@
 # Project information
 site_name: Jellyfish's Documents
 site_url: https://my.domain.com/
+site_author: Aina
+site_description: >-
+    My Documentation.
+    Using the '>-' syntax, you can create multiline content.
 
 # Repository
-# repo_name: Ask me
-# repo_url: https://www.baidu.com
+# repo_name: squidfunk/mkdocs-material
+# repo_url: https://github.com/squidfunk/mkdocs-material
 
 # Copyright
 copyright: Copyright &copy; 2024 - 2025 Aina.
@@ -39,23 +43,23 @@ theme:
   palette: 
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: brown
+      primary: teal
       accent : amber
       toggle:
-        icon: material/weather-night
+        icon: material/jellyfish
         name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       primary: black
       accent: pink
       toggle:
-        icon: material/weather-sunny
+        icon: material/jellyfish-outline
         name: Switch to light mode
   font: false
   favicon: assets/images/jellyfish-outline.svg
   icon:
-    logo: material/file-document-multiple-outline
-    repo: simple/baidu
+    logo: material/format-list-text
+    # repo: material/git
 
 # Plugins
 plugins:
